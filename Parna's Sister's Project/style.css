@@ -1,0 +1,58 @@
+.body {
+    background: 
+    linear-gradient(
+        rgba(0, 195, 255, 0.322), 
+        rgba(0, 195, 255, 0.322)
+      ),
+      url("images/messi_cover.jpg") no-repeat center;
+    background-size: cover;
+    background-position: top;
+    margin: 0px;
+}
+.header{
+    color: white;
+    background: black;
+    opacity: 0.5;
+}
+.header-span{
+    font-size: 50px;
+    font-family: Impact, Charcoal, sans-serif;
+    padding-left: 45px;
+}
+.header-span-small{
+    font-size: 25px;
+}
+.nav-body{
+    background: #34302d;
+    opacity: 0.9;
+    padding-top: 20px;
+    height: 37px;
+    font-weight: 400;
+    font-family: varela round,sans-serif;
+    border-top: 4px solid #6db33f;
+}
+.nav-link{
+    font-size: 16px;
+    padding: 20px 25px 20px 25px;
+    border-right: black 1px solid;
+    -webkit-font-smoothing: antialiased;
+    color: #eee;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+}
+.nav-link-active{
+    background-color: #6db33f;
+}
+.nav-link:hover{
+    background-color: #6db33f;
+}
+.header-span-right{
+    float: right;
+    margin-right: 20px;
+    font-size: 25px;
+}
+.right-bottom{
+    margin-top: 30px;
+    margin-right: -157px;
+}
